@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -56,5 +56,3 @@ const add = ({ icon, first, second, col }) => {
 }
 
 export default add
-
-const styles = StyleSheet.create({})

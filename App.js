@@ -1,16 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView, Image, ScrollView } from 'react-native';
+import { Text, View, Image, ScrollView, StatusBar } from 'react-native';
 import {Ionicons} from '@expo/vector-icons'
 import Play from './assets/play.png'
 import Add from './add'
 import { LinearGradient } from 'expo-linear-gradient';
-
 
 export default function App() {
   return (
     <ScrollView style={{
       backgroundColor: "#10161E"
     }}>
+      <StatusBar />
       <LinearGradient 
       start={{x: 0, y: 0.75}} end={{x: 1, y: 0.25}}
       colors={['#2F4697', '#1E8796', 'transparent']}
@@ -224,5 +224,3 @@ export default function App() {
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({});
